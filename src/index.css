@@ -11,7 +11,7 @@ body {
   padding: 0;
   color: #fff;
   font-family: 'Comfortaa';
-  background-color: #309869;
+  background-color: hsl(199, 45%, 35%);
 }
 
 .App {
@@ -22,6 +22,7 @@ body {
 }
 
 h1 {
+  font-size: 3rem;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -33,12 +34,13 @@ main {
 input {
   border: none;
   padding: 0.3em 0.2em 0;
-  width: 100%;
+  width: 14rem;
   color: #074863;
   font-size: 1em;
   line-height: 1.5em;
   background-color: #fff;
   opacity: 0.5;
+  border-radius: 5px;
 }
 
 input:focus {
@@ -55,15 +57,17 @@ ul.one-list {
 
 ul.one-list,
 input {
-  font-family: 'Neucha', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 ul.one-list li {
-  margin: 0.2em;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0.4em;
 }
 
 ul.one-list li,
 form {
+  justify-content: center;
   align-items: flex-start;
   display: flex;
 }

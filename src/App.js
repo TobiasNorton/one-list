@@ -101,7 +101,7 @@ class App extends Component {
               return (
                 <li
                   key={index}
-                  data-idfromapi={todo.id} //this is the actual id key from the object
+                  data-idfromapi={todo.id}
                   onClick={this.completeTodo}
                   onDoubleClick={this.deleteItem}
                   className={todoClass}
